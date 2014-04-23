@@ -1,0 +1,17 @@
+{
+    "name": "picup-truck",
+    "version": "0.0.1",
+    "author": {
+        "name": "Wardell Bellanger",
+        "email": "wbellan@yahoo.com"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "3.4.8",
+        "jade": "*",
+        "stylus": "*",
+        "connect-multiparty": "1.0.3"
+    }
+}

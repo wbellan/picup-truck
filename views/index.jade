@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= title
+      form(name="upload", method="POST", action="/picup", enctype="multipart/form-data")
+          input(type="file", name="theFile")
+          input(type="submit", value="Upload")
